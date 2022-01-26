@@ -14,7 +14,7 @@ class SolarSystem extends React.Component {
     return (
       <div data-testid="solar-system">
         <Title headline="Planetas" />
-        <div>
+        <div className="solar-system">
           {planets.map(getPlanet)}
         </div>
       </div>
